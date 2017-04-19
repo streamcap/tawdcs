@@ -164,6 +164,8 @@ PublishScripts/
 **/packages/*
 # except build/, which is used as an MSBuild target.
 !**/packages/build/
+# except .targets filessince they have been modified.
+!**/packages/**.targets
 # Uncomment if necessary however generally it will be regenerated when needed
 #!**/packages/repositories.config
 # NuGet v3's project.json files produces more ignorable files
@@ -236,6 +238,7 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
+
 # Typescript v1 declaration files
 typings/
 
@@ -286,3 +289,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+**/app/**.js
+**/app/**.js.map
+**/main.js
+**/main.js.map
