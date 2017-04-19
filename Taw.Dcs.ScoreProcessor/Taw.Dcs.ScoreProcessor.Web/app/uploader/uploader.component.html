@@ -1,0 +1,17 @@
+﻿<div>
+    <div>
+        <p>
+            There is no data uploaded. Paste your CSV into the text area and click "Upload CSV". The CSV is assumed to be exactly 16 columns ordered like so:
+        </p>
+        <p>
+            <b>GameName;RunTime;Time;PlayerName;TargetPlayerName;ScoreType;PlayerUnitCoaltion;PlayerUnitCategory;PlayerUnitType;PlayerUnitName;TargetUnitCoalition;TargetUnitCategory;TargetUnitType;TargetUnitName;Times;Score</b>
+        </p>
+        <p>To exclude a row, make sure it begins with a '#' character.</p>
+        <p>You may define a different separator if you so desire. If no separator is uploaded, semi-colon is assumed as default</p>
+    </div>
+    <div>
+        <textarea [(ngModel)]="csvText" style="width: 960px; height: 240px;"></textarea>
+        <label>Separator:</label> <input [(ngModel)]="separator" style="width: 24px;" />
+    </div>
+    <button (click)="uploadCsv();" [disabled]="isUploadingCsv">Upload CSV</button>
+</div>

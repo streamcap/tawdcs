@@ -1,0 +1,22 @@
+﻿<div *ngIf="isLoading">
+    <img src="resources/smallspinner.gif" alt="Loading..." />
+</div>
+<div *ngIf="!isLoading">
+    <h2>Games: {{games.length}}</h2>
+    <div style="margin-bottom: 2em;">
+        <i>Kill score handling rule: </i>
+        <select id="myRule" required="" [(ngModel)]="selectedRule">
+            <option *ngFor="let rule of rules" [value]="rule.id">{{rule.name}}</option>
+        </select>
+    </div>
+    <div class="col col-md-3">
+        <div *ngFor="let game of games">
+            <a class="btn btn-default btn-block" (click)="presentGame(game)">{{game}}</a>
+        </div>
+    </div>
+    <div class="col col-md-9">
+        <div *ngIf="selectedGame !== null">
+            <my-presenter [rule]="selectedRule" [game]="selectedGame">Loading presenter...</my-presenter>
+        </div>
+    </div>
+</div>

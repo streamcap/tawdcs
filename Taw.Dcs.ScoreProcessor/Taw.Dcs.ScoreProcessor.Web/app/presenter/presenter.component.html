@@ -1,0 +1,37 @@
+﻿<h2>{{selectedgame}}</h2>
+<button class="btn btn-default" (click)="downloadSummary();">Summary</button>
+<button class="btn btn-default" (click)="downloadTeamData();">Team data</button>
+<div *ngIf="isLoading">
+    <img src="resources/smallspinner.gif" alt="Loading..." />
+</div><div *ngIf="events.length > 0">
+    <h2>Events</h2>
+    <div *ngFor="let evt of events">
+        At {{evt.RunTime | date:'medium'}}, {{evt.PlayerName}} hit {{evt.TargetPlayerName || "AI"}} in {{evt.TargetUnitType}} for {{evt.Times * evt.Score}} points!
+    </div>
+</div>
+<div *ngIf="summary.length > 0">
+    <h3>Summary</h3>
+    <div *ngFor="let line of summary">
+        {{line}}
+    </div>
+</div>
+<div *ngIf="teamDataCollection != null">    
+    <h3>Team data</h3>
+    <div>
+        <button class="btn btn-default" *ngFor="let team of teamDataCollection" (click)="selectTeam(team)" [class.selected]="selectedTeam === team">{{team.name}}</button>
+        <div *ngIf="selectedTeam != null">
+            <h4>{{selectedTeam.name}}</h4>
+            <div>
+                <button class="btn btn-default" *ngFor="let tab of selectedTeam.tabs" (click)="selectTab(tab)" [class.selected]="selectedTab === tab">{{tab.name}}</button>
+            </div>
+            <div *ngIf="selectedTab != null">
+                <div>
+                    <h5>{{selectedTab.name}}</h5>
+                    <ol>
+                        <li *ngFor="let line of selectedTab.items">{{line}}</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

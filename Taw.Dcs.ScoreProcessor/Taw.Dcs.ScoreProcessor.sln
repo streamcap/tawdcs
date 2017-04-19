@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.Gui", "Taw.Dcs.ScoreProcessor.Gui\Taw.Dcs.ScoreProcessor.Gui.csproj", "{894DD224-9547-44F2-A0A8-A7B9D841FF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.Engine", "Taw.Dcs.ScoreProcessor.Engine\Taw.Dcs.ScoreProcessor.Engine.csproj", "{B81D183C-84B0-4F48-8A57-4D4A5339BA29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.Web", "Taw.Dcs.ScoreProcessor.Web\Taw.Dcs.ScoreProcessor.Web.csproj", "{AD97D827-3DE5-46EE-853E-F1C6A1C7CFD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.Models", "Taw.Dcs.ScoreProcessor.Models\Taw.Dcs.ScoreProcessor.Models.csproj", "{B0A41FED-9402-4CBA-B44B-BB4CD7F2FA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.Engine.UnitTests", "Taw.Dcs.ScoreProcessor.Engine.UnitTests\Taw.Dcs.ScoreProcessor.Engine.UnitTests.csproj", "{B751CCF1-CEF6-462A-81CB-A4F134F5C116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.Storage", "Taw.Dcs.ScoreProcessor.Storage\Taw.Dcs.ScoreProcessor.Storage.csproj", "{AAC97B5E-909E-4E60-8C8D-E446894085D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.Storage.Laboration", "Taw.Dcs.ScoreProcessor.Storage.Laboration\Taw.Dcs.ScoreProcessor.Storage.Laboration.csproj", "{08C486DA-5C92-4AAF-8A7A-592890012CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.Web.UnitTests", "Taw.Dcs.ScoreProcessor.Web.UnitTests\Taw.Dcs.ScoreProcessor.Web.UnitTests.csproj", "{47C87DDB-559B-4243-AB1F-B6BC444507EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taw.Dcs.ScoreProcessor.SystemTest", "Taw.Dcs.ScoreProcessor.SystemTest\Taw.Dcs.ScoreProcessor.SystemTest.csproj", "{BFFCC0A2-ECC4-4C08-8266-3CA1C0DF6E8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{894DD224-9547-44F2-A0A8-A7B9D841FF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{894DD224-9547-44F2-A0A8-A7B9D841FF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{894DD224-9547-44F2-A0A8-A7B9D841FF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{894DD224-9547-44F2-A0A8-A7B9D841FF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81D183C-84B0-4F48-8A57-4D4A5339BA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81D183C-84B0-4F48-8A57-4D4A5339BA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81D183C-84B0-4F48-8A57-4D4A5339BA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81D183C-84B0-4F48-8A57-4D4A5339BA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD97D827-3DE5-46EE-853E-F1C6A1C7CFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD97D827-3DE5-46EE-853E-F1C6A1C7CFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD97D827-3DE5-46EE-853E-F1C6A1C7CFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD97D827-3DE5-46EE-853E-F1C6A1C7CFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0A41FED-9402-4CBA-B44B-BB4CD7F2FA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0A41FED-9402-4CBA-B44B-BB4CD7F2FA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0A41FED-9402-4CBA-B44B-BB4CD7F2FA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0A41FED-9402-4CBA-B44B-BB4CD7F2FA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B751CCF1-CEF6-462A-81CB-A4F134F5C116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B751CCF1-CEF6-462A-81CB-A4F134F5C116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B751CCF1-CEF6-462A-81CB-A4F134F5C116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B751CCF1-CEF6-462A-81CB-A4F134F5C116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC97B5E-909E-4E60-8C8D-E446894085D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC97B5E-909E-4E60-8C8D-E446894085D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC97B5E-909E-4E60-8C8D-E446894085D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC97B5E-909E-4E60-8C8D-E446894085D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C486DA-5C92-4AAF-8A7A-592890012CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C486DA-5C92-4AAF-8A7A-592890012CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C486DA-5C92-4AAF-8A7A-592890012CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C486DA-5C92-4AAF-8A7A-592890012CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C87DDB-559B-4243-AB1F-B6BC444507EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C87DDB-559B-4243-AB1F-B6BC444507EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C87DDB-559B-4243-AB1F-B6BC444507EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C87DDB-559B-4243-AB1F-B6BC444507EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFFCC0A2-ECC4-4C08-8266-3CA1C0DF6E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFCC0A2-ECC4-4C08-8266-3CA1C0DF6E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFCC0A2-ECC4-4C08-8266-3CA1C0DF6E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFCC0A2-ECC4-4C08-8266-3CA1C0DF6E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://streamcap.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Taw.Dcs.ScoreProcessor.Gui\\Taw.Dcs.ScoreProcessor.Gui.csproj
+		SccProjectName1 = Taw.Dcs.ScoreProcessor.Gui
+		SccLocalPath1 = Taw.Dcs.ScoreProcessor.Gui
+		SccProjectUniqueName2 = Taw.Dcs.ScoreProcessor.Engine\\Taw.Dcs.ScoreProcessor.Engine.csproj
+		SccProjectName2 = Taw.Dcs.ScoreProcessor.Engine
+		SccLocalPath2 = Taw.Dcs.ScoreProcessor.Engine
+		SccProjectUniqueName3 = Taw.Dcs.ScoreProcessor.Web\\Taw.Dcs.ScoreProcessor.Web.csproj
+		SccProjectName3 = Taw.Dcs.ScoreProcessor.Web
+		SccLocalPath3 = Taw.Dcs.ScoreProcessor.Web
+		SccProjectUniqueName4 = Taw.Dcs.ScoreProcessor.Models\\Taw.Dcs.ScoreProcessor.Models.csproj
+		SccProjectName4 = Taw.Dcs.ScoreProcessor.Models
+		SccLocalPath4 = Taw.Dcs.ScoreProcessor.Models
+		SccProjectUniqueName5 = Taw.Dcs.ScoreProcessor.Engine.UnitTests\\Taw.Dcs.ScoreProcessor.Engine.UnitTests.csproj
+		SccProjectName5 = Taw.Dcs.ScoreProcessor.Engine.UnitTests
+		SccLocalPath5 = Taw.Dcs.ScoreProcessor.Engine.UnitTests
+		SccProjectUniqueName6 = Taw.Dcs.ScoreProcessor.Storage\\Taw.Dcs.ScoreProcessor.Storage.csproj
+		SccProjectName6 = Taw.Dcs.ScoreProcessor.Storage
+		SccLocalPath6 = Taw.Dcs.ScoreProcessor.Storage
+		SccProjectUniqueName7 = Taw.Dcs.ScoreProcessor.Storage.Laboration\\Taw.Dcs.ScoreProcessor.Storage.Laboration.csproj
+		SccProjectName7 = Taw.Dcs.ScoreProcessor.Storage.Laboration
+		SccLocalPath7 = Taw.Dcs.ScoreProcessor.Storage.Laboration
+		SccProjectUniqueName8 = Taw.Dcs.ScoreProcessor.Web.UnitTests\\Taw.Dcs.ScoreProcessor.Web.UnitTests.csproj
+		SccProjectName8 = Taw.Dcs.ScoreProcessor.Web.UnitTests
+		SccLocalPath8 = Taw.Dcs.ScoreProcessor.Web.UnitTests
+		SccProjectUniqueName9 = Taw.Dcs.ScoreProcessor.SystemTest\\Taw.Dcs.ScoreProcessor.SystemTest.csproj
+		SccProjectName9 = Taw.Dcs.ScoreProcessor.SystemTest
+		SccLocalPath9 = Taw.Dcs.ScoreProcessor.SystemTest
+	EndGlobalSection
+EndGlobal
